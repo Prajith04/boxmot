@@ -196,9 +196,11 @@ $ python3 boxmot/appearance/reid_export.py --include openvino --device cpu
 $ python3 boxmot/appearance/reid_export.py --include engine --device 0 --dynamic
 ```
 
+
 </details>
 <details>
 <summary>Pose detection</summary>
+  
 ```bash
 $ python tracking/trackmod.py --yolo-model yolov8m-pose  --tracking-method bytetrack --reid-model lmbn_n_cuhk03_d.pt   --source 0  --show 
 ```
